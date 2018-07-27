@@ -13,11 +13,12 @@ class App extends Component {
         this.addFish = this.addFish.bind(this);
         this.loadSamples = this.loadSamples.bind(this);
         this.addToOrder = this.addToOrder.bind(this);
-
+        this.addToFishes = this.addToFishes.bind(this);
 
         this.state = {
             fishes: {},
-            order: {}
+            order: {},
+            fishdesc: {}
         };
     }
 
@@ -47,6 +48,14 @@ class App extends Component {
         this.setState({ order: order });
     }
 
+    addToFishes(){
+
+
+        this.setState({
+            // fishdesc: fish
+        });
+        console.log(this.state.fishdesc);
+    }
 
   render() {
         console.log(this.state.order);
@@ -61,7 +70,7 @@ class App extends Component {
             </div>
 
             <Order fishes={this.state.fishes} order={this.state.order}/>
-            <Inventory addfish={this.addFish} loadSamples={this.loadSamples}/>
+            <Inventory addfish={this.addFish} loadSamples={this.loadSamples} />
 
         </div>
     );

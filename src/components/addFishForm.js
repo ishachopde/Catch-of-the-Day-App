@@ -4,7 +4,7 @@ class addFishForm extends Component{
     createFish(event){
         event.preventDefault();
         console.log("Gonna make some Fish! ");
-        const fish ={
+         const fish ={
             name: this.name.value,
             price: this.price.value,
             status: this.status.value,
@@ -12,6 +12,7 @@ class addFishForm extends Component{
             image: this.image.value
         }
         // this.props.addFish(fish);
+        // console.log(this.props.addFish(fish));
         this.fishForm.reset();
     }
 
