@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98112d61-7527-45fc-ad11-bf62d4f45bdf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Inventory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Inventory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/addFishForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/addFishForm.js" afterDir="false" />
-    </list>
+    <list default="true" id="98112d61-7527-45fc-ad11-bf62d4f45bdf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -173,7 +168,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="838" />
+    <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -259,12 +254,12 @@
       <workItem from="1531632059246" duration="711000" />
       <workItem from="1531760926161" duration="571000" />
       <workItem from="1531884952305" duration="234000" />
-      <workItem from="1532661911788" duration="1618000" />
+      <workItem from="1532661911788" duration="1880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31843000" />
+    <option name="totallyTimeSpent" value="32105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
